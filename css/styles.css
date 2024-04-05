@@ -57,18 +57,13 @@
   font-style: normal;
 }
 
-
-li {
-	font-size: 1.2em;
-}
-
 body {
 	background: rgb(178,237,228);
-background: linear-gradient(180deg, rgba(178,237,228,1) 0%, rgba(178,237,228,1) 10%, rgba(178,237,228,0) 100%);
+background: linear-gradient(180deg, rgba(178,237,228,1) 0%, rgba(178,237,228,1) 5%, rgba(178,237,228,0) 60%, rgba(178,237,228,0) 100%);
 	font-family: "authetic-sans-90";
 }
 
-h1 {
+h1, h2 {
 	font-family: "movement-indirect-black";
 }
 
@@ -104,9 +99,33 @@ h1 {
 	color: #EFED6A;
 }
 
+a {
+	color: #212529;
+}
+
 /* other */
 
 .lang-icon {
 	height: 2em;
 	flex-basis: 1.4em;
 }
+
+.small-text {
+	font-size: 0.8em;
+}
+
+/* lists */
+
+
+.instructions-list li {
+	font-size: 1.2em;
+}
+
+/*
+.instructions-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	
+} */

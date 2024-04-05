@@ -100,3 +100,16 @@ h1 {
 	color: #FFFAF4;
 	text-decoration: none
 }
+
+/* links */
+
+.lemon-link {
+	color: #EFED6A;
+}
+
+/* other */
+
+.lang-icon {
+	height: 2em;
+	flex-basis: 1.4em;
+}

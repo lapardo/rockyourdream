@@ -4,9 +4,6 @@
 
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 @font-face {
   font-family: "movement-indirect-black";
   src: url("../media/fonts/Movement/Movement-IndirectBlack.woff2");
@@ -46,16 +43,6 @@
 .color-whitw-hsla { color: hsla(32, 100, 97, 1); }
 .color-aqua-hsla { color: hsla(170, 62, 81, 1); }
 .color-lemon-hsla { color: hsla(59, 80, 67, 1); }
-
-
-/* font classes */
-
-/* font not used */
-.italiana-regular {
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 body {
 	background: rgb(178,237,228);
@@ -120,12 +107,3 @@ a {
 .instructions-list li {
 	font-size: 1.2em;
 }
-
-/*
-.instructions-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	
-} */
